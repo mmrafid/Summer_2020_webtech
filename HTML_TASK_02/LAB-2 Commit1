@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<table border="1px solid black">
+	<tr> 
+	
+	<td colspan="3"></td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td> Name </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td> Email </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	<tr>
+	
+	<td> Gender </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td> Date of birth </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	<tr>
+	
+	<td> Blood Group </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	
+	<tr>
+	
+	<td> Digree </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	<tr>
+	
+	<td> Photo </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td> Email </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	<tr>
+	
+	<td>  </td>
+	<td>  </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	</table>
+	
+</body>
+</html>
