@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<table border="1px solid black">
+	<tr> 
+	
+	<td colspan="3"> <h1> PERSON PROFILE </h1></td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td> Name </td>
+	<td> <input type="text" id="name" name="name"> </td>
+	<td width="50px">  </td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td> Email </td>
+	<td> <input type="text" id="email" name="email"><br> </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	<tr>
+	
+	<td> Gender </td>
+	<td> <input type="radio" id="male" name="gender" value="male">Male <input type="radio" id="female" name="gender" value="female"> Female<input type="radio" id="others" name="gender" value="others"> Others</td>
+	<td>  </td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td> Date of birth </td>
+	<td> <input type="date" id="birthday" name="birthday"> </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	<tr>
+	
+	<td> Blood Group </td>
+	<td> 
+
+     <select>
+  <option value="volvo">A+</option>
+  <option value="saab">A-</option>
+  <option value="vw">AB+</option>
+  <option value="audi" selected>AB-</option>
+  <option value="volvo">o+</option>
+  <option value="saab">o-</option>
+</select>
+
+	</td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	
+	<tr>
+	
+	<td> Digree </td>
+	<td> <input type="checkbox" name="digree" value="Bike">SSC <input type="checkbox" name="digree" value="Bike">HSC <input type="checkbox" name="digree" value="Bike">BSc. <input type="checkbox" name="digree" value="Bike">MSc. </td>
+	<td>  </td>
+	
+	</tr>
+	
+	
+	<tr>
+	
+	<td> Photo </td>
+	<td> <input type="file" id="myfile" name="myfile"> </td>
+	<td>  </td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td colspan="3">  </td>
+	
+	</tr>
+	
+	
+	<tr>
+	
+	<td colspan="3"> <input type="submit"> <input type="reset" value="Reset"> </td>
+	
+	</tr>
+	
+	
+	</table>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
