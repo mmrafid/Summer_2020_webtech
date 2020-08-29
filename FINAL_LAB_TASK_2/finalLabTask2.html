@@ -19,8 +19,7 @@ function validateForm() {
 
 <body>
 <form name="myForm" action="css file not built yet" onsubmit="return validateForm()" method="post">
-	<center> 
-		<table width ="50%" border="1px" >
+	<center> <table width ="750px" border="1px" >
 		<tr>
 			<td align="center" colspan="3">PERSON REGISTRATION</td>
 		</tr>
@@ -32,7 +31,7 @@ function validateForm() {
 
 		<tr>
 			<td>Email</td>
-			<td><input type = "text" name="val1" /></td>
+			<td><input type = "text" name="val1" required/></td>
 		</tr>
 
 		<tr>
@@ -43,18 +42,18 @@ function validateForm() {
 
 		<tr>
 			<td>Date of Birth</td>
-			<td><input type = "text" name="val1" />
+			<td><input type = "text" name="val1" required/>
 			/
-			<input type = "text" name="val1" />
+			<input type = "text" name="val1" required/>
 			/
-			<input type = "text" name="val1" />
+			<input type = "text" name="val1" required/>
 			(dd/mm/yyy)</td>
 		</tr>
 
 		<tr>
 			<td>Blood Group</td>
 			<td>
-				<select name="bg">
+				<select name="bg" required>
 					<option value ="o pos">O+ve</option>
 					<option value ="o pos">A+ve</option>
 					<option value ="o pos">A-ve</option>
