@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>SIGNUP</title>
+	
+	
+	<script>
+function validateForm() {
+  var x = document.forms["myForm"]["val1"].value;
+  if (x == "") {
+    alert("All fields must be filled out");
+    return false;
+  }
+}
+</script>
+	
+</head>	
+
+<body>
+<form name="myForm" action="css file not built yet" onsubmit="return validateForm()" method="post">
+	<center> <table width ="500px" border="1px" >
+		<tr>
+			<td align="center" colspan="2">Signup to the system</td>
+		</tr>
+
+		<tr>
+			<td>Name</td>
+			<td colspan="2"><input type = "text" name="val1" required/></td>
+		</tr>
+
+		<tr>
+			<td>Email</td>
+			<td><input type = "text" name="val1" required/></td>
+		</tr>
+		
+		
+		<tr>
+			<td>Password</td>
+			<td><input type = "password" name="val1" required/></td>
+		</tr>
+
+		    <td colspan="2"> 
+				<input type = "submit" value="Submit">
+				<input type = "submit" value="Login">
+			</td>
+		</tr>
+
+	</table>
+</center>
+
+
+</form>
+</body>
+</html>
