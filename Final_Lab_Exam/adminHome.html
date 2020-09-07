@@ -20,7 +20,7 @@ if(!isset($_SESSION['id'])){
 	<title> Home </title>
 	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-   <!-- Including our scripting file. -->
+   
    <script type="text/javascript" src="script.js"></script>
 	
 	
@@ -33,11 +33,11 @@ if(!isset($_SESSION['id'])){
 	 <h1> Welcome <?php echo $_SESSION['id'];?> </h1>
 	
 	
-	<input type="text" id="search" placeholder="Search" />
+	<input type="text" id="search" placeholder="Search Here" />
    <br>
-   <b>Ex: </b><i>David, Ricky, Ronaldo, Messi, Watson, Robot</i>
+   
    <br />
-   <!-- Suggestions will be displayed in below div. -->
+  
    <div id="display"></div>
 
 	
