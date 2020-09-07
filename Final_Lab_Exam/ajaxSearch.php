@@ -6,7 +6,7 @@ if (isset($_POST['search'])) {
 
    $name = $_POST['search'];
 
-   $Query = "SELECT name FROM search WHERE name LIKE '%$name%' LIMIT 5";
+   $Query = "select name from search where name like '%$name%' ";
 
    $ExecQuery = MySQLi_query($con, $Query);
 
