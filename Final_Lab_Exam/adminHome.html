@@ -1,0 +1,51 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['id'])){
+	header('location:login.html');	
+}
+
+?>
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title> Home </title>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+   <!-- Including our scripting file. -->
+   <script type="text/javascript" src="script.js"></script>
+	
+	
+	
+	
+</head>
+<body>
+	
+	
+	 <h1> Welcome <?php echo $_SESSION['id'];?> </h1>
+	
+	
+	<input type="text" id="search" placeholder="Search" />
+   <br>
+   <b>Ex: </b><i>David, Ricky, Ronaldo, Messi, Watson, Robot</i>
+   <br />
+   <!-- Suggestions will be displayed in below div. -->
+   <div id="display"></div>
+
+	
+	
+	
+	
+	<a href="logout.php">Logout</a>
+	
+</body>
+</html>
+
